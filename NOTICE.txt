@@ -1,0 +1,6 @@
+Code provenance and license
+
+فراخوان‌یار چالشینو با مجوز GPL-2.0-or-later منتشر می‌شود. الگوی دریافت و تحویل فایل از `Chaleshino_Media` و الگوهای تراکنش، زمان، میانگین و ثبت نتیجه از `Chaleshino_Public`، `Chaleshino_Competition`، `Chaleshino_Core` و `Chaleshino_Operations` در چالشینو نسخه 1.0.0 ساخت 20261028.1 اقتباس شده‌اند. صاحب اثر اصلی Chaleshino است. متن مجوز در `LICENSE.txt` موجود است.
+
+رابط از فونت سایت و امکانات بومی وردپرس استفاده می‌کند.
+
