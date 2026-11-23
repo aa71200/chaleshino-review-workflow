@@ -168,6 +168,10 @@ final class Workflow {
 	}
 
 	public static function results( int $id, string $action, string $fingerprint ): mixed {
+		if ( ! current_user_can( MANAGE ) ) {
+			return self::error( __( 'شما اجازهٔ تغییر انتشار نتایج را ندارید.', 'chaleshino-call-review' ), 403 );
+		}
+
 		return self::locked(
 			$id,
 			static function ( $call ) use ( $id, $action, $fingerprint ) {
