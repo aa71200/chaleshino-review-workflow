@@ -16,7 +16,7 @@ Use disposable InnoDB-backed single-site WordPress with <code>WP_ENVIRONMENT_TYP
 
     CODEXAWP_TEST_WP_LOAD=/path/to/wp-load.php php tests/check.php
 
-The fixture creates a demo call, synthetic entries, and test judges. Eight checks passed with WordPress 7.1.3 and PHP 8.2.12. The checks include assignment, score validation, tied ranks, a stale preview, an incomplete ranking, and a valid published result.
+The fixture creates a demo call, synthetic entries and test judges. It checks assignment, score validation, ties, stale or incomplete results, permission to publish or revoke, and the public snapshot after revocation and republication. The full product's private file download route is outside this workflow excerpt.
 
 ## Source and license
 
