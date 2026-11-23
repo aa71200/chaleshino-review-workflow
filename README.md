@@ -1,6 +1,6 @@
 # Chaleshino review workflow
 
-This WordPress code sample shows how a submission call enforces judge assignments, validates scores, ranks approved entries, and publishes a reviewed result.
+A submission call needs scores from the right judges, reproducible rankings, and an approval step before results go public. This WordPress sample shows the scoring, tie handling, and publication rules from Chaleshino.
 
 The [workflow](src/class-workflow.php) restricts scoring to assigned judges within the judging window. It accepts scores from 0 to 100 with up to two decimal places, including Persian digits. Equal averages share a rank, so the next result after two entries in first place is third. Publication checks for incomplete reviews and compares the current ranking with the reviewed preview before saving a snapshot.
 
