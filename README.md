@@ -8,9 +8,9 @@ A submission call needs scores from the right judges, reproducible rankings, and
 
 The [workflow](src/class-workflow.php) restricts scoring to assigned judges within the judging window. It accepts scores from 0 to 100 with up to two decimal places, including Persian digits. Equal averages share a rank, so the next result after two entries in first place is third. Publication checks for incomplete reviews and compares the current ranking with the reviewed preview before saving a snapshot.
 
-![The original Persian test interface showing two sample entries tied in first place](docs/public-results.png)
+![Published Chaleshino results showing two sample entries tied in first place](docs/public-results.png)
 
-The screenshot shows synthetic receipt codes in the Persian public views of the full plugin.
+The English test page uses synthetic receipt codes. [View the same published results on mobile](docs/public-results-mobile.png).
 
 ## Run the integration fixture
 
