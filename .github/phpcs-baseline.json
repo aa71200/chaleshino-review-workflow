@@ -1,0 +1,70 @@
+{
+    "_comment": "Pre-existing findings from the portfolio review. Counts are limited to this file and sniff. Remove entries as code is corrected.",
+    "files": {
+        "src/class-store.php": {
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR Squiz.Commenting.ClassComment.Missing": 1,
+            "ERROR Squiz.Commenting.FileComment.Missing": 1,
+            "ERROR Squiz.Commenting.FunctionComment.Missing": 10,
+            "WARNING WordPress.DB.DirectDatabaseQuery.DirectQuery": 6,
+            "WARNING WordPress.DB.DirectDatabaseQuery.NoCaching": 6
+        },
+        "src/class-workflow.php": {
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR PSR2.Classes.ClassDeclaration.CloseBraceAfterBody": 1,
+            "ERROR Squiz.Commenting.FileComment.Missing": 1,
+            "ERROR Squiz.Commenting.FunctionComment.Missing": 14,
+            "WARNING WordPress.DB.DirectDatabaseQuery.DirectQuery": 10,
+            "WARNING WordPress.DB.DirectDatabaseQuery.NoCaching": 9
+        },
+        "tests/bootstrap.php": {
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed": 24,
+            "ERROR PEAR.Functions.FunctionCallSignature.CloseBracketLine": 1,
+            "ERROR PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket": 1,
+            "ERROR PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket": 18,
+            "ERROR PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket": 18,
+            "ERROR Squiz.Commenting.FileComment.Missing": 1,
+            "ERROR Squiz.Commenting.FunctionComment.Missing": 3,
+            "ERROR Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen": 2,
+            "ERROR Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingBeforeClose": 2,
+            "ERROR Universal.Arrays.DisallowShortArraySyntax.Found": 1,
+            "ERROR WordPress.Security.EscapeOutput.ExceptionNotEscaped": 2,
+            "ERROR WordPress.Security.EscapeOutput.OutputNotEscaped": 1,
+            "ERROR WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis": 6,
+            "ERROR WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis": 6,
+            "ERROR WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter": 6,
+            "ERROR WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore": 4,
+            "WARNING Generic.Formatting.MultipleStatementAlignment.NotSameWarning": 1,
+            "WARNING WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned": 2
+        },
+        "tests/check.php": {
+            "ERROR Generic.Files.LineEndings.InvalidEOLChar": 1,
+            "ERROR Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed": 28,
+            "ERROR NormalizedArrays.Arrays.ArrayBraceSpacing.SpaceAfterArrayOpenerSingleLine": 15,
+            "ERROR NormalizedArrays.Arrays.ArrayBraceSpacing.SpaceBeforeArrayCloserSingleLine": 15,
+            "ERROR PEAR.Functions.FunctionCallSignature.CloseBracketLine": 3,
+            "ERROR PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket": 3,
+            "ERROR PEAR.Functions.FunctionCallSignature.MultipleArguments": 3,
+            "ERROR PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket": 85,
+            "ERROR PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket": 85,
+            "ERROR Squiz.Commenting.FileComment.Missing": 1,
+            "ERROR Squiz.Commenting.FunctionComment.Missing": 1,
+            "ERROR Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingAfterOpen": 1,
+            "ERROR Squiz.Functions.FunctionDeclarationArgumentSpacing.SpacingBeforeClose": 1,
+            "ERROR Universal.Arrays.DisallowShortArraySyntax.Found": 20,
+            "ERROR WordPress.Arrays.ArrayDeclarationSpacing.ArrayItemNoNewLine": 10,
+            "ERROR WordPress.Arrays.ArrayDeclarationSpacing.AssociativeArrayFound": 3,
+            "ERROR WordPress.NamingConventions.ValidVariableName.VariableNotSnakeCase": 26,
+            "ERROR WordPress.PHP.YodaConditions.NotYoda": 9,
+            "ERROR WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceAfterOpenParenthesis": 7,
+            "ERROR WordPress.WhiteSpace.ControlStructureSpacing.NoSpaceBeforeCloseParenthesis": 7,
+            "ERROR WordPress.WhiteSpace.OperatorSpacing.NoSpaceAfter": 6,
+            "ERROR WordPress.WhiteSpace.OperatorSpacing.NoSpaceBefore": 5,
+            "WARNING Generic.Formatting.MultipleStatementAlignment.NotSameWarning": 5,
+            "WARNING WordPress.Arrays.MultipleStatementAlignment.DoubleArrowNotAligned": 14,
+            "WARNING WordPress.DB.DirectDatabaseQuery.DirectQuery": 6,
+            "WARNING WordPress.DB.DirectDatabaseQuery.NoCaching": 4
+        }
+    }
+}

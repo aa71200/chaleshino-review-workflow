@@ -1,5 +1,7 @@
 # Chaleshino review workflow
 
+**What to try.** See a real published ranking with tied places. Run the WordPress fixture to verify scoring, publication and revocation.
+
 [![WordPress integration checks](https://github.com/aa71200/chaleshino-review-workflow/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/aa71200/chaleshino-review-workflow/actions/workflows/checks.yml)
 
 A submission call needs scores from the right judges, reproducible rankings, and an approval step before results go public. This WordPress sample shows the scoring, tie handling, and publication rules from Chaleshino.
